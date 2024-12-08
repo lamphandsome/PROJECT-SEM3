@@ -1,0 +1,163 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\PROJECT-SEM3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\project-sem3\\project_sem3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|solutionrelative:project_sem3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\project-sem3\\project_sem3\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|solutionrelative:project_sem3\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\project-sem3\\project_sem3\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|solutionrelative:project_sem3\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\project-sem3\\project_sem3\\views\\account\\verifyemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|solutionrelative:project_sem3\\views\\account\\verifyemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\project-sem3\\project_sem3\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|solutionrelative:project_sem3\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\project-sem3\\project_sem3\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|solutionrelative:project_sem3\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\project-sem3\\project_sem3\\views\\shared\\_accountlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|solutionrelative:project_sem3\\views\\shared\\_accountlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\project-sem3\\project_sem3\\wwwroot\\css\\account.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|solutionrelative:project_sem3\\wwwroot\\css\\account.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "PROJECT_SEM3\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "PROJECT_SEM3\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAowBUAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T08:01:48.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Views\\Account\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "PROJECT_SEM3\\Views\\Account\\ChangePassword.cshtml",
+              "ToolTip": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Views\\Account\\ChangePassword.cshtml",
+              "RelativeToolTip": "PROJECT_SEM3\\Views\\Account\\ChangePassword.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T06:50:45.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VerifyEmail.cshtml",
+              "DocumentMoniker": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Views\\Account\\VerifyEmail.cshtml",
+              "RelativeDocumentMoniker": "PROJECT_SEM3\\Views\\Account\\VerifyEmail.cshtml",
+              "ToolTip": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Views\\Account\\VerifyEmail.cshtml",
+              "RelativeToolTip": "PROJECT_SEM3\\Views\\Account\\VerifyEmail.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T06:44:48.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "PROJECT_SEM3\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "PROJECT_SEM3\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAABQAAAAAAAAAAAAwwDAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T06:13:17.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "PROJECT_SEM3\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "PROJECT_SEM3\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAIAAAAAAAAAAAAAkwJcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T06:12:36.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_AccountLayout.cshtml",
+              "DocumentMoniker": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Views\\Shared\\_AccountLayout.cshtml",
+              "RelativeDocumentMoniker": "PROJECT_SEM3\\Views\\Shared\\_AccountLayout.cshtml",
+              "ToolTip": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Views\\Shared\\_AccountLayout.cshtml",
+              "RelativeToolTip": "PROJECT_SEM3\\Views\\Shared\\_AccountLayout.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAwwCoAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T21:11:26.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "account.css",
+              "DocumentMoniker": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\css\\account.css",
+              "RelativeDocumentMoniker": "PROJECT_SEM3\\wwwroot\\css\\account.css",
+              "ToolTip": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\css\\account.css",
+              "RelativeToolTip": "PROJECT_SEM3\\wwwroot\\css\\account.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-07T20:27:01.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "PROJECT_SEM3\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "PROJECT_SEM3\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAwwDEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T20:19:36.312Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
