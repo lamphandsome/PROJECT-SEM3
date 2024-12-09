@@ -201,3 +201,4 @@ C:\PROJECT-SEM3\PROJECT_SEM3\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System
 C:\PROJECT-SEM3\PROJECT_SEM3\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\PROJECT-SEM3\PROJECT_SEM3\obj\Debug\net8.0\PROJECT_SEM3.csproj.AssemblyReference.cache
 C:\PROJECT-SEM3\PROJECT_SEM3\obj\Debug\net8.0\PROJECT_.01C4B50C.Up2Date
+C:\PROJECT-SEM3\Project_sem3\obj\Debug\net8.0\PROJECT_SEM3.sourcelink.json
