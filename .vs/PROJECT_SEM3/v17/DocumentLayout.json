@@ -1,97 +1,101 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\PROJECT-SEM3\\",
+  "WorkspaceRootPath": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\project-sem3\\project_sem3\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|solutionrelative:project_sem3\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\users\\nguye\\onedrive\\\uBB38\uC11C\\github\\project-sem3\\project_sem3\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|solutionrelative:project_sem3\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\project-sem3\\project_sem3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\users\\nguye\\onedrive\\\uBB38\uC11C\\github\\project-sem3\\project_sem3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|solutionrelative:project_sem3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\project-sem3\\project_sem3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\users\\nguye\\onedrive\\\uBB38\uC11C\\github\\project-sem3\\project_sem3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|solutionrelative:project_sem3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\project-sem3\\project_sem3\\models\\userspecializations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\users\\nguye\\onedrive\\\uBB38\uC11C\\github\\project-sem3\\project_sem3\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|solutionrelative:project_sem3\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\users\\nguye\\onedrive\\\uBB38\uC11C\\github\\project-sem3\\project_sem3\\models\\userspecializations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|solutionrelative:project_sem3\\models\\userspecializations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\project-sem3\\project_sem3\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\users\\nguye\\onedrive\\\uBB38\uC11C\\github\\project-sem3\\project_sem3\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|solutionrelative:project_sem3\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\project-sem3\\project_sem3\\models\\specializations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\users\\nguye\\onedrive\\\uBB38\uC11C\\github\\project-sem3\\project_sem3\\models\\specializations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|solutionrelative:project_sem3\\models\\specializations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\project-sem3\\project_sem3\\models\\locations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\users\\nguye\\onedrive\\\uBB38\uC11C\\github\\project-sem3\\project_sem3\\models\\locations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|solutionrelative:project_sem3\\models\\locations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\project-sem3\\project_sem3\\models\\posts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\users\\nguye\\onedrive\\\uBB38\uC11C\\github\\project-sem3\\project_sem3\\models\\posts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|solutionrelative:project_sem3\\models\\posts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\project-sem3\\project_sem3\\models\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\users\\nguye\\onedrive\\\uBB38\uC11C\\github\\project-sem3\\project_sem3\\models\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|solutionrelative:project_sem3\\models\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\project-sem3\\project_sem3\\models\\comments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\users\\nguye\\onedrive\\\uBB38\uC11C\\github\\project-sem3\\project_sem3\\models\\comments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|solutionrelative:project_sem3\\models\\comments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\project-sem3\\project_sem3\\models\\follows.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\users\\nguye\\onedrive\\\uBB38\uC11C\\github\\project-sem3\\project_sem3\\models\\follows.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|solutionrelative:project_sem3\\models\\follows.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\project-sem3\\project_sem3\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\users\\nguye\\onedrive\\\uBB38\uC11C\\github\\project-sem3\\project_sem3\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|solutionrelative:project_sem3\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\project-sem3\\project_sem3\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\users\\nguye\\onedrive\\\uBB38\uC11C\\github\\project-sem3\\project_sem3\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|solutionrelative:project_sem3\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\project-sem3\\project_sem3\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\users\\nguye\\onedrive\\\uBB38\uC11C\\github\\project-sem3\\project_sem3\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|solutionrelative:project_sem3\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\project-sem3\\project_sem3\\viewmodels\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\users\\nguye\\onedrive\\\uBB38\uC11C\\github\\project-sem3\\project_sem3\\viewmodels\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|solutionrelative:project_sem3\\viewmodels\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\project-sem3\\project_sem3\\views\\account\\verifyemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\users\\nguye\\onedrive\\\uBB38\uC11C\\github\\project-sem3\\project_sem3\\views\\account\\verifyemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|solutionrelative:project_sem3\\views\\account\\verifyemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\project-sem3\\project_sem3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\users\\nguye\\onedrive\\\uBB38\uC11C\\github\\project-sem3\\project_sem3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|solutionrelative:project_sem3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\project-sem3\\project_sem3\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\users\\nguye\\onedrive\\\uBB38\uC11C\\github\\project-sem3\\project_sem3\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|solutionrelative:project_sem3\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\project-sem3\\project_sem3\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\users\\nguye\\onedrive\\\uBB38\uC11C\\github\\project-sem3\\project_sem3\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|solutionrelative:project_sem3\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\project-sem3\\project_sem3\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\users\\nguye\\onedrive\\\uBB38\uC11C\\github\\project-sem3\\project_sem3\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|solutionrelative:project_sem3\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\project-sem3\\project_sem3\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\users\\nguye\\onedrive\\\uBB38\uC11C\\github\\project-sem3\\project_sem3\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|solutionrelative:project_sem3\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\project-sem3\\project_sem3\\views\\shared\\_accountlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\users\\nguye\\onedrive\\\uBB38\uC11C\\github\\project-sem3\\project_sem3\\views\\shared\\_accountlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|solutionrelative:project_sem3\\views\\shared\\_accountlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\project-sem3\\project_sem3\\wwwroot\\css\\account.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|c:\\users\\nguye\\onedrive\\\uBB38\uC11C\\github\\project-sem3\\project_sem3\\wwwroot\\css\\account.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{58D73BE0-9ACD-4328-AB88-2BD96F1B3574}|PROJECT_SEM3\\PROJECT_SEM3.csproj|solutionrelative:project_sem3\\wwwroot\\css\\account.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
@@ -102,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -110,17 +114,34 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "PROJECT_SEM3\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "PROJECT_SEM3\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-11T02:33:38.363Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\appsettings.json",
               "RelativeDocumentMoniker": "PROJECT_SEM3\\appsettings.json",
-              "ToolTip": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\appsettings.json",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\appsettings.json",
               "RelativeToolTip": "PROJECT_SEM3\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABFAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-12-09T19:34:09.987Z",
               "EditorCaption": ""
@@ -129,34 +150,35 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\Program.cs",
               "RelativeDocumentMoniker": "PROJECT_SEM3\\Program.cs",
-              "ToolTip": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Program.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\Program.cs",
               "RelativeToolTip": "PROJECT_SEM3\\Program.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T19:34:02.583Z"
+              "WhenOpened": "2024-12-09T19:34:02.583Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Data\\AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "PROJECT_SEM3\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\Data\\AppDbContext.cs",
               "RelativeToolTip": "PROJECT_SEM3\\Data\\AppDbContext.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAQwFIAAAAFAAAA",
+              "ViewState": "AgIAADkAAAAAAAAAAAAIwFMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-09T19:10:07.556Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Messages.cs",
-              "DocumentMoniker": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Models\\Messages.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\Models\\Messages.cs",
               "RelativeDocumentMoniker": "PROJECT_SEM3\\Models\\Messages.cs",
-              "ToolTip": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Models\\Messages.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\Models\\Messages.cs",
               "RelativeToolTip": "PROJECT_SEM3\\Models\\Messages.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -164,11 +186,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Follows.cs",
-              "DocumentMoniker": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Models\\Follows.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\Models\\Follows.cs",
               "RelativeDocumentMoniker": "PROJECT_SEM3\\Models\\Follows.cs",
-              "ToolTip": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Models\\Follows.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\Models\\Follows.cs",
               "RelativeToolTip": "PROJECT_SEM3\\Models\\Follows.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -176,11 +198,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Comments.cs",
-              "DocumentMoniker": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Models\\Comments.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\Models\\Comments.cs",
               "RelativeDocumentMoniker": "PROJECT_SEM3\\Models\\Comments.cs",
-              "ToolTip": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Models\\Comments.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\Models\\Comments.cs",
               "RelativeToolTip": "PROJECT_SEM3\\Models\\Comments.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -188,11 +210,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Posts.cs",
-              "DocumentMoniker": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Models\\Posts.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\Models\\Posts.cs",
               "RelativeDocumentMoniker": "PROJECT_SEM3\\Models\\Posts.cs",
-              "ToolTip": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Models\\Posts.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\Models\\Posts.cs",
               "RelativeToolTip": "PROJECT_SEM3\\Models\\Posts.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -200,11 +222,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Locations.cs",
-              "DocumentMoniker": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Models\\Locations.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\Models\\Locations.cs",
               "RelativeDocumentMoniker": "PROJECT_SEM3\\Models\\Locations.cs",
-              "ToolTip": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Models\\Locations.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\Models\\Locations.cs",
               "RelativeToolTip": "PROJECT_SEM3\\Models\\Locations.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -212,11 +234,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "UserSpecializations.cs",
-              "DocumentMoniker": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Models\\UserSpecializations.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\Models\\UserSpecializations.cs",
               "RelativeDocumentMoniker": "PROJECT_SEM3\\Models\\UserSpecializations.cs",
-              "ToolTip": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Models\\UserSpecializations.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\Models\\UserSpecializations.cs",
               "RelativeToolTip": "PROJECT_SEM3\\Models\\UserSpecializations.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -224,11 +246,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Specializations.cs",
-              "DocumentMoniker": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Models\\Specializations.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\Models\\Specializations.cs",
               "RelativeDocumentMoniker": "PROJECT_SEM3\\Models\\Specializations.cs",
-              "ToolTip": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Models\\Specializations.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\Models\\Specializations.cs",
               "RelativeToolTip": "PROJECT_SEM3\\Models\\Specializations.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -236,11 +258,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "RegisterViewModel.cs",
-              "DocumentMoniker": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\ViewModels\\RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\ViewModels\\RegisterViewModel.cs",
               "RelativeDocumentMoniker": "PROJECT_SEM3\\ViewModels\\RegisterViewModel.cs",
-              "ToolTip": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\ViewModels\\RegisterViewModel.cs",
               "RelativeToolTip": "PROJECT_SEM3\\ViewModels\\RegisterViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -248,11 +270,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\ViewModels\\LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\ViewModels\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "PROJECT_SEM3\\ViewModels\\LoginViewModel.cs",
-              "ToolTip": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\ViewModels\\LoginViewModel.cs",
               "RelativeToolTip": "PROJECT_SEM3\\ViewModels\\LoginViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -260,11 +282,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ChangePasswordViewModel.cs",
-              "DocumentMoniker": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\ViewModels\\ChangePasswordViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\ViewModels\\ChangePasswordViewModel.cs",
               "RelativeDocumentMoniker": "PROJECT_SEM3\\ViewModels\\ChangePasswordViewModel.cs",
-              "ToolTip": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\ViewModels\\ChangePasswordViewModel.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\ViewModels\\ChangePasswordViewModel.cs",
               "RelativeToolTip": "PROJECT_SEM3\\ViewModels\\ChangePasswordViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -272,11 +294,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Users.cs",
-              "DocumentMoniker": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Models\\Users.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\Models\\Users.cs",
               "RelativeDocumentMoniker": "PROJECT_SEM3\\Models\\Users.cs",
-              "ToolTip": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Models\\Users.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\Models\\Users.cs",
               "RelativeToolTip": "PROJECT_SEM3\\Models\\Users.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -284,11 +306,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Models\\ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "PROJECT_SEM3\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\Models\\ErrorViewModel.cs",
               "RelativeToolTip": "PROJECT_SEM3\\Models\\ErrorViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -296,11 +318,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "PROJECT_SEM3\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\Controllers\\HomeController.cs",
               "RelativeToolTip": "PROJECT_SEM3\\Controllers\\HomeController.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAowBUAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -308,11 +330,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ChangePassword.cshtml",
-              "DocumentMoniker": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Views\\Account\\ChangePassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\Views\\Account\\ChangePassword.cshtml",
               "RelativeDocumentMoniker": "PROJECT_SEM3\\Views\\Account\\ChangePassword.cshtml",
-              "ToolTip": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Views\\Account\\ChangePassword.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\Views\\Account\\ChangePassword.cshtml",
               "RelativeToolTip": "PROJECT_SEM3\\Views\\Account\\ChangePassword.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -320,11 +342,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "VerifyEmail.cshtml",
-              "DocumentMoniker": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Views\\Account\\VerifyEmail.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\Views\\Account\\VerifyEmail.cshtml",
               "RelativeDocumentMoniker": "PROJECT_SEM3\\Views\\Account\\VerifyEmail.cshtml",
-              "ToolTip": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Views\\Account\\VerifyEmail.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\Views\\Account\\VerifyEmail.cshtml",
               "RelativeToolTip": "PROJECT_SEM3\\Views\\Account\\VerifyEmail.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -332,11 +354,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Views\\Account\\Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "PROJECT_SEM3\\Views\\Account\\Register.cshtml",
-              "ToolTip": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\Views\\Account\\Register.cshtml",
               "RelativeToolTip": "PROJECT_SEM3\\Views\\Account\\Register.cshtml",
               "ViewState": "AQIAABQAAAAAAAAAAAAwwDAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -344,11 +366,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Controllers\\AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "PROJECT_SEM3\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\Controllers\\AccountController.cs",
               "RelativeToolTip": "PROJECT_SEM3\\Controllers\\AccountController.cs",
               "ViewState": "AQIAAIAAAAAAAAAAAAAkwJcAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -356,11 +378,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "_AccountLayout.cshtml",
-              "DocumentMoniker": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Views\\Shared\\_AccountLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\Views\\Shared\\_AccountLayout.cshtml",
               "RelativeDocumentMoniker": "PROJECT_SEM3\\Views\\Shared\\_AccountLayout.cshtml",
-              "ToolTip": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Views\\Shared\\_AccountLayout.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\Views\\Shared\\_AccountLayout.cshtml",
               "RelativeToolTip": "PROJECT_SEM3\\Views\\Shared\\_AccountLayout.cshtml",
               "ViewState": "AQIAAAkAAAAAAAAAAAAwwCoAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -368,11 +390,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "account.css",
-              "DocumentMoniker": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\css\\account.css",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\css\\account.css",
               "RelativeDocumentMoniker": "PROJECT_SEM3\\wwwroot\\css\\account.css",
-              "ToolTip": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\css\\account.css",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\css\\account.css",
               "RelativeToolTip": "PROJECT_SEM3\\wwwroot\\css\\account.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -380,11 +402,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Views\\Account\\Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "PROJECT_SEM3\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\nguye\\OneDrive\\\uBB38\uC11C\\GitHub\\PROJECT-SEM3\\PROJECT_SEM3\\Views\\Account\\Login.cshtml",
               "RelativeToolTip": "PROJECT_SEM3\\Views\\Account\\Login.cshtml",
               "ViewState": "AQIAAAYAAAAAAAAAAAAwwDEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
