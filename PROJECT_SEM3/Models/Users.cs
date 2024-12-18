@@ -9,6 +9,7 @@ namespace PROJECT_SEM3.Models
         public DateTime DateOfBirth { get; set; }
         public int? LocationId { get; set; } // Nullable Foreign Key
         public int YearsOfExperience { get; set; }
+        public string Thumbnail { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
         public DateTime UpdatedAt { get; set; } = DateTime.UtcNow;
 
@@ -22,3 +23,4 @@ namespace PROJECT_SEM3.Models
         public ICollection<Message> ReceivedMessages { get; set; }
     }
 }
+

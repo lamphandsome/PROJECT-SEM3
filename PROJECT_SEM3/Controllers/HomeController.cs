@@ -25,10 +25,10 @@ namespace PROJECT_SEM3.Controllers
         {
             return View();
         }
-        public IActionResult Doctors()
+/*        public IActionResult Doctors()
         {
             return View();
-        }
+        }*/
         public IActionResult Contact()
         {
             return View();

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ztsC3td/Xxylf42qvxgVxjPZCH0tbIupf3g9E7d4EzU=",
+  "Hash": "79W9uz2ERAWbgQMiL632AfRFgvMsCdXWcHltFKpJXCE=",
   "Source": "PROJECT_SEM3",
   "BasePath": "_content/PROJECT_SEM3",
   "Mode": "Default",
@@ -1801,6 +1801,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\uploads\\8efe859a-21ba-417d-8442-99ec041c632a_Screenshot 2024-11-26 020717.png",
+      "SourceId": "PROJECT_SEM3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\",
+      "BasePath": "_content/PROJECT_SEM3",
+      "RelativePath": "uploads/8efe859a-21ba-417d-8442-99ec041c632a_Screenshot 2024-11-26 020717.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\8efe859a-21ba-417d-8442-99ec041c632a_Screenshot 2024-11-26 020717.png"
     },
     {
       "Identity": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\vendor\\animate\\animate.css",
