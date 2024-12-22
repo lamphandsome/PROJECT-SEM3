@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using PROJECT_SEM3.Data;
 using PROJECT_SEM3.ViewModels;
 
@@ -25,6 +26,33 @@ namespace PROJECT_SEM3.Controllers
                 .ToList();
 
             return View(doctors);
+
         }
+        [HttpGet]
+        public IActionResult Search(string query)
+        {
+            if (string.IsNullOrWhiteSpace(query))
+            {
+                // Nếu không có từ khóa, trả về danh sách trống
+                return View("SearchResults", new List<DoctorViewModel>());
+            }
+
+            // Tìm kiếm theo tên hoặc địa chỉ
+            var results = _context.Users
+                .Include(u => u.Location)
+                .Where(u => u.FullName.Contains(query) ||
+                            (u.Location != null &&
+                             (u.Location.City.Contains(query) || u.Location.Country.Contains(query))))
+                .Select(u => new DoctorViewModel
+                {
+                    FullName = u.FullName,
+                    Thumbnail = u.Thumbnail,
+                    Locations = u.Location != null ? $"{u.Location.City}, {u.Location.Country}" : "N/A"
+                })
+                .ToList();
+
+            return View("SearchResults", results);
+        }
+
     }
 }

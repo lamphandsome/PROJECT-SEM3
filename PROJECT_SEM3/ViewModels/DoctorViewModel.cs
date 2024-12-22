@@ -4,5 +4,6 @@
     {
         public string FullName { get; set; }
         public string Thumbnail { get; set; }
+        public string Locations { get; internal set; }
     }
 }
