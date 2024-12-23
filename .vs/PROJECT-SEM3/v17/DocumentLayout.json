@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\PROJECT-SEM3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\PROJECT-SEM3\\PROJECT_SEM3\\Models\\Post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PROJECT_SEM3\\Models\\Post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\PROJECT-SEM3\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
@@ -27,6 +31,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Post.cs",
+              "DocumentMoniker": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Models\\Post.cs",
+              "RelativeDocumentMoniker": "PROJECT_SEM3\\Models\\Post.cs",
+              "ToolTip": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\Models\\Post.cs",
+              "RelativeToolTip": "PROJECT_SEM3\\Models\\Post.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T03:00:43.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\PROJECT-SEM3\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
@@ -34,8 +51,7 @@
               "RelativeToolTip": ".gitignore",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-18T03:52:08.919Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T03:52:08.919Z"
             }
           ]
         }

@@ -397,7 +397,6 @@ namespace PROJECT_SEM3.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Thumbnail")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("TwoFactorEnabled")

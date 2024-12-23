@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PROJECT_SEM3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26811f4104349a6d505f82252d7948ba30b0c197")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8929aef885adcf08a29732937d2dc945c4bea5b7")]
 [assembly: System.Reflection.AssemblyProductAttribute("PROJECT_SEM3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PROJECT_SEM3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

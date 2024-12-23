@@ -4908,24 +4908,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\admin\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Acer\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\1-Project3\\PROJECT_SEM3\\PROJECT_SEM3.csproj",
+      "projectUniqueName": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\PROJECT_SEM3.csproj",
       "projectName": "PROJECT_SEM3",
-      "projectPath": "C:\\1-Project3\\PROJECT_SEM3\\PROJECT_SEM3.csproj",
-      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\1-Project3\\PROJECT_SEM3\\obj\\",
+      "projectPath": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\PROJECT_SEM3.csproj",
+      "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
+      "outputPath": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4995,7 +4990,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
