@@ -18,7 +18,7 @@ namespace PROJECT_SEM3.Data
         public DbSet<Comment> Comments { get; set; }
         public DbSet<Follow> Follows { get; set; }
         public DbSet<Message> Messages { get; set; }
-
+        
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder); // Gọi cấu hình của Identity
