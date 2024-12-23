@@ -1,378 +1,383 @@
 {
   "Files": [
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PROJECT_SEM3.bundle.scp.css",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PROJECT_SEM3.bundle.scp.css",
       "PackagePath": "staticwebassets\\PROJECT_SEM3.bundle.scp.css"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\css\\account.css",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\css\\account.css",
       "PackagePath": "staticwebassets\\css\\account.css"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\css\\bootstrap.css",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\css\\maicons.css",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\css\\maicons.css",
       "PackagePath": "staticwebassets\\css\\maicons.css"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\css\\site.css",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\css\\theme.css",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\css\\theme.css",
       "PackagePath": "staticwebassets\\css\\theme.css"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\favicon.ico",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\fonts\\maicons.eot",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\fonts\\maicons.eot",
       "PackagePath": "staticwebassets\\fonts\\maicons.eot"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\fonts\\maicons.svg",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\fonts\\maicons.svg",
       "PackagePath": "staticwebassets\\fonts\\maicons.svg"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\fonts\\maicons.ttf",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\fonts\\maicons.ttf",
       "PackagePath": "staticwebassets\\fonts\\maicons.ttf"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\fonts\\maicons.woff",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\fonts\\maicons.woff",
       "PackagePath": "staticwebassets\\fonts\\maicons.woff"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\img\\ajax-loader.gif",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\img\\425727701_393795563231506_7539939603831731263_n.jpg",
+      "PackagePath": "staticwebassets\\img\\425727701_393795563231506_7539939603831731263_n.jpg"
+    },
+    {
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\img\\ajax-loader.gif",
       "PackagePath": "staticwebassets\\img\\ajax-loader.gif"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\img\\app_store.svg",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\img\\app_store.svg",
       "PackagePath": "staticwebassets\\img\\app_store.svg"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\img\\banner-pattern.svg",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\img\\banner-pattern.svg",
       "PackagePath": "staticwebassets\\img\\banner-pattern.svg"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\img\\bg-doctor.png",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\img\\bg-doctor.png",
       "PackagePath": "staticwebassets\\img\\bg-doctor.png"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\img\\bg_image_1.jpg",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\img\\bg_image_1.jpg",
       "PackagePath": "staticwebassets\\img\\bg_image_1.jpg"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\img\\blog\\blog_1.jpg",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\img\\blog\\blog_1.jpg",
       "PackagePath": "staticwebassets\\img\\blog\\blog_1.jpg"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\img\\blog\\blog_2.jpg",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\img\\blog\\blog_2.jpg",
       "PackagePath": "staticwebassets\\img\\blog\\blog_2.jpg"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\img\\blog\\blog_3.jpg",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\img\\blog\\blog_3.jpg",
       "PackagePath": "staticwebassets\\img\\blog\\blog_3.jpg"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\img\\blog\\blog_4.jpg",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\img\\blog\\blog_4.jpg",
       "PackagePath": "staticwebassets\\img\\blog\\blog_4.jpg"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\img\\blog\\blog_5.jpg",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\img\\blog\\blog_5.jpg",
       "PackagePath": "staticwebassets\\img\\blog\\blog_5.jpg"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\img\\doctors\\doctor_1.jpg",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\img\\doctors\\doctor_1.jpg",
       "PackagePath": "staticwebassets\\img\\doctors\\doctor_1.jpg"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\img\\doctors\\doctor_2.jpg",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\img\\doctors\\doctor_2.jpg",
       "PackagePath": "staticwebassets\\img\\doctors\\doctor_2.jpg"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\img\\doctors\\doctor_3.jpg",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\img\\doctors\\doctor_3.jpg",
       "PackagePath": "staticwebassets\\img\\doctors\\doctor_3.jpg"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\img\\google_play.svg",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\img\\google_play.svg",
       "PackagePath": "staticwebassets\\img\\google_play.svg"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\img\\istockphoto-1344779917-612x612.jpg",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\img\\istockphoto-1344779917-612x612.jpg",
       "PackagePath": "staticwebassets\\img\\istockphoto-1344779917-612x612.jpg"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\img\\mobile_app.png",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\img\\mobile_app.png",
       "PackagePath": "staticwebassets\\img\\mobile_app.png"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\img\\person\\person_1.jpg",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\img\\person\\person_1.jpg",
       "PackagePath": "staticwebassets\\img\\person\\person_1.jpg"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\img\\person\\person_2.jpg",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\img\\person\\person_2.jpg",
       "PackagePath": "staticwebassets\\img\\person\\person_2.jpg"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\img\\person\\person_3.jpg",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\img\\person\\person_3.jpg",
       "PackagePath": "staticwebassets\\img\\person\\person_3.jpg"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\img\\person\\person_4.jpg",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\img\\person\\person_4.jpg",
       "PackagePath": "staticwebassets\\img\\person\\person_4.jpg"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\js\\google-maps.js",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\js\\google-maps.js",
       "PackagePath": "staticwebassets\\js\\google-maps.js"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\js\\jquery-3.5.1.min.js",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\js\\jquery-3.5.1.min.js",
       "PackagePath": "staticwebassets\\js\\jquery-3.5.1.min.js"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\js\\site.js",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\js\\theme.js",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\js\\theme.js",
       "PackagePath": "staticwebassets\\js\\theme.js"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+<<<<<<< HEAD
       "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\uploads\\6c1c4fc0-3124-4482-ad2b-3da9b1f83f0d_Screenshot 2024-11-29 094354.png",
       "PackagePath": "staticwebassets\\uploads\\6c1c4fc0-3124-4482-ad2b-3da9b1f83f0d_Screenshot 2024-11-29 094354.png"
     },
@@ -386,26 +391,37 @@
     },
     {
       "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\vendor\\animate\\animate.css",
+=======
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\uploads\\8efe859a-21ba-417d-8442-99ec041c632a_Screenshot 2024-11-26 020717.png",
+      "PackagePath": "staticwebassets\\uploads\\8efe859a-21ba-417d-8442-99ec041c632a_Screenshot 2024-11-26 020717.png"
+    },
+    {
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\uploads\\d7ad8c1a-6479-4bb6-9890-d9863a5fd3ab_425727701_393795563231506_7539939603831731263_n.jpg",
+      "PackagePath": "staticwebassets\\uploads\\d7ad8c1a-6479-4bb6-9890-d9863a5fd3ab_425727701_393795563231506_7539939603831731263_n.jpg"
+    },
+    {
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\vendor\\animate\\animate.css",
+>>>>>>> 6e9dda22da4cd58c213a23a7cba6cfadd0be5f93
       "PackagePath": "staticwebassets\\vendor\\animate\\animate.css"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\vendor\\owl-carousel\\ajax-loader.gif",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\vendor\\owl-carousel\\ajax-loader.gif",
       "PackagePath": "staticwebassets\\vendor\\owl-carousel\\ajax-loader.gif"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\vendor\\owl-carousel\\css\\owl.carousel.css",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\vendor\\owl-carousel\\css\\owl.carousel.css",
       "PackagePath": "staticwebassets\\vendor\\owl-carousel\\css\\owl.carousel.css"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\vendor\\owl-carousel\\js\\owl.carousel.js",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\vendor\\owl-carousel\\js\\owl.carousel.js",
       "PackagePath": "staticwebassets\\vendor\\owl-carousel\\js\\owl.carousel.js"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\vendor\\owl-carousel\\js\\owl.carousel.min.js",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\vendor\\owl-carousel\\js\\owl.carousel.min.js",
       "PackagePath": "staticwebassets\\vendor\\owl-carousel\\js\\owl.carousel.min.js"
     },
     {
-      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\vendor\\wow\\wow.min.js",
+      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\vendor\\wow\\wow.min.js",
       "PackagePath": "staticwebassets\\vendor\\wow\\wow.min.js"
     },
     {

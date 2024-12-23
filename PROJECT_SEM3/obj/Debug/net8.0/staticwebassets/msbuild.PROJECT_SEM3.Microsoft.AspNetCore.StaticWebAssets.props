@@ -160,6 +160,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\fonts\maicons.woff))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\425727701_393795563231506_7539939603831731263_n.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>PROJECT_SEM3</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PROJECT_SEM3</BasePath>
+      <RelativePath>img/425727701_393795563231506_7539939603831731263_n.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\425727701_393795563231506_7539939603831731263_n.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\img\ajax-loader.gif))">
       <SourceType>Package</SourceType>
       <SourceId>PROJECT_SEM3</SourceId>
@@ -1520,12 +1536,20 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\8efe859a-21ba-417d-8442-99ec041c632a_Screenshot 2024-11-26 020717.png))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\cd4a1f7a-6b7f-4093-9454-9d5dfe7e9a9a_Instagram_logo_2016.svg.webp))">
+=======
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\d7ad8c1a-6479-4bb6-9890-d9863a5fd3ab_425727701_393795563231506_7539939603831731263_n.jpg))">
+>>>>>>> 6e9dda22da4cd58c213a23a7cba6cfadd0be5f93
       <SourceType>Package</SourceType>
       <SourceId>PROJECT_SEM3</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/PROJECT_SEM3</BasePath>
+<<<<<<< HEAD
       <RelativePath>uploads/cd4a1f7a-6b7f-4093-9454-9d5dfe7e9a9a_Instagram_logo_2016.svg.webp</RelativePath>
+=======
+      <RelativePath>uploads/d7ad8c1a-6479-4bb6-9890-d9863a5fd3ab_425727701_393795563231506_7539939603831731263_n.jpg</RelativePath>
+>>>>>>> 6e9dda22da4cd58c213a23a7cba6cfadd0be5f93
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -1534,7 +1558,11 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+<<<<<<< HEAD
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\cd4a1f7a-6b7f-4093-9454-9d5dfe7e9a9a_Instagram_logo_2016.svg.webp))</OriginalItemSpec>
+=======
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\d7ad8c1a-6479-4bb6-9890-d9863a5fd3ab_425727701_393795563231506_7539939603831731263_n.jpg))</OriginalItemSpec>
+>>>>>>> 6e9dda22da4cd58c213a23a7cba6cfadd0be5f93
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vendor\animate\animate.css))">
       <SourceType>Package</SourceType>
