@@ -373,8 +373,16 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\uploads\\6c1c4fc0-3124-4482-ad2b-3da9b1f83f0d_Screenshot 2024-11-29 094354.png",
+      "PackagePath": "staticwebassets\\uploads\\6c1c4fc0-3124-4482-ad2b-3da9b1f83f0d_Screenshot 2024-11-29 094354.png"
+    },
+    {
       "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\uploads\\8efe859a-21ba-417d-8442-99ec041c632a_Screenshot 2024-11-26 020717.png",
       "PackagePath": "staticwebassets\\uploads\\8efe859a-21ba-417d-8442-99ec041c632a_Screenshot 2024-11-26 020717.png"
+    },
+    {
+      "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\uploads\\cd4a1f7a-6b7f-4093-9454-9d5dfe7e9a9a_Instagram_logo_2016.svg.webp",
+      "PackagePath": "staticwebassets\\uploads\\cd4a1f7a-6b7f-4093-9454-9d5dfe7e9a9a_Instagram_logo_2016.svg.webp"
     },
     {
       "Id": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\vendor\\animate\\animate.css",

@@ -2,14 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\PROJECT_SEM3",
-    "\\PROJECT_SEM3\\Controllers",
     "\\PROJECT_SEM3\\Data",
     "\\PROJECT_SEM3\\Models",
-    "\\PROJECT_SEM3\\ViewModels",
-    "\\PROJECT_SEM3\\Views",
-    "\\PROJECT_SEM3\\Views\\Account",
-    "\\PROJECT_SEM3\\Views\\Shared"
+    "\\PROJECT_SEM3\\ViewModels"
   ],
-  "SelectedNode": "\\PROJECT_SEM3\\Views\\Account\\UserDetail.cshtml",
+  "SelectedNode": "\\PROJECT_SEM3.sln",
   "PreviewInSolutionExplorer": false
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "79W9uz2ERAWbgQMiL632AfRFgvMsCdXWcHltFKpJXCE=",
+  "Hash": "6dC5B9rzkmvymdKcXGSUWvW7rlv6f8xTbYCcxfGLJtg=",
   "Source": "PROJECT_SEM3",
   "BasePath": "_content/PROJECT_SEM3",
   "Mode": "Default",
@@ -1803,6 +1803,25 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
+      "Identity": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\uploads\\6c1c4fc0-3124-4482-ad2b-3da9b1f83f0d_Screenshot 2024-11-29 094354.png",
+      "SourceId": "PROJECT_SEM3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\",
+      "BasePath": "_content/PROJECT_SEM3",
+      "RelativePath": "uploads/6c1c4fc0-3124-4482-ad2b-3da9b1f83f0d_Screenshot 2024-11-29 094354.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\6c1c4fc0-3124-4482-ad2b-3da9b1f83f0d_Screenshot 2024-11-29 094354.png"
+    },
+    {
       "Identity": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\uploads\\8efe859a-21ba-417d-8442-99ec041c632a_Screenshot 2024-11-26 020717.png",
       "SourceId": "PROJECT_SEM3",
       "SourceType": "Discovered",
@@ -1820,6 +1839,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\8efe859a-21ba-417d-8442-99ec041c632a_Screenshot 2024-11-26 020717.png"
+    },
+    {
+      "Identity": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\uploads\\cd4a1f7a-6b7f-4093-9454-9d5dfe7e9a9a_Instagram_logo_2016.svg.webp",
+      "SourceId": "PROJECT_SEM3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\",
+      "BasePath": "_content/PROJECT_SEM3",
+      "RelativePath": "uploads/cd4a1f7a-6b7f-4093-9454-9d5dfe7e9a9a_Instagram_logo_2016.svg.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\cd4a1f7a-6b7f-4093-9454-9d5dfe7e9a9a_Instagram_logo_2016.svg.webp"
     },
     {
       "Identity": "C:\\PROJECT-SEM3\\PROJECT_SEM3\\wwwroot\\vendor\\animate\\animate.css",

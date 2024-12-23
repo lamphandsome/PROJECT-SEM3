@@ -1488,6 +1488,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\PROJECT_SEM3.bundle.scp.css))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\6c1c4fc0-3124-4482-ad2b-3da9b1f83f0d_Screenshot 2024-11-29 094354.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>PROJECT_SEM3</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PROJECT_SEM3</BasePath>
+      <RelativePath>uploads/6c1c4fc0-3124-4482-ad2b-3da9b1f83f0d_Screenshot 2024-11-29 094354.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\6c1c4fc0-3124-4482-ad2b-3da9b1f83f0d_Screenshot 2024-11-29 094354.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\8efe859a-21ba-417d-8442-99ec041c632a_Screenshot 2024-11-26 020717.png))">
       <SourceType>Package</SourceType>
       <SourceId>PROJECT_SEM3</SourceId>
@@ -1503,6 +1519,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\8efe859a-21ba-417d-8442-99ec041c632a_Screenshot 2024-11-26 020717.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\cd4a1f7a-6b7f-4093-9454-9d5dfe7e9a9a_Instagram_logo_2016.svg.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>PROJECT_SEM3</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PROJECT_SEM3</BasePath>
+      <RelativePath>uploads/cd4a1f7a-6b7f-4093-9454-9d5dfe7e9a9a_Instagram_logo_2016.svg.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\cd4a1f7a-6b7f-4093-9454-9d5dfe7e9a9a_Instagram_logo_2016.svg.webp))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vendor\animate\animate.css))">
       <SourceType>Package</SourceType>

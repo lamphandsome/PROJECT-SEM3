@@ -24,14 +24,18 @@
                         <div class="col-md-6 col-lg-4 py-3 wow zoomIn">
                             <div class="card-doctor">
                                 <div class="header">
-                                    <img src="@doctor.Thumbnail" alt="@doctor.FullName" class="img-fluid">
+                                    <a href="@Url.Action("Profile", "Doctors", new { id = doctor.Id })">
+                                        <img src="@doctor.Thumbnail" alt="@doctor.FullName" class="img-fluid">
+                                    </a>
                                     <div class="meta">
                                         <a href="#"><span class="mai-call"></span></a>
                                         <a href="#"><span class="mai-logo-whatsapp"></span></a>
                                     </div>
                                 </div>
                                 <div class="body">
-                                    <p class="text-xl mb-0">@doctor.FullName</p>
+                                    <p class="text-xl mb-0">
+                                        <a href="@Url.Action("Profile", "Doctors", new { id = doctor.Id })">@doctor.FullName</a>
+                                    </p>
                                 </div>
                             </div>
                         </div>
