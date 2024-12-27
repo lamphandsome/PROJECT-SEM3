@@ -2,7 +2,10 @@
 {
     public class DoctorViewModel
     {
+        public string Id { get; set; }
         public string FullName { get; set; }
         public string Thumbnail { get; set; }
+
+        public string Locations { get; internal set; }
     }
 }

@@ -1,0 +1,150 @@
+﻿@model PROJECT_SEM3.ViewModels.DoctorViewModel
+@{
+    ViewBag.Title = "Doctor Profile";
+}
+
+<div class="profile-container">
+    <!-- Thông tin cơ bản -->
+    <div class="profile-header">
+        <!-- Ảnh đại diện -->
+        <div class="profile-avatar">
+            <img src="@Model.Thumbnail" alt="@Model.FullName" class="avatar-img">
+        </div>
+
+        <!-- Thông tin cá nhân -->
+        <div class="profile-info">
+            <h2 class="profile-username">@Model.FullName</h2>
+            <div class="profile-stats">
+                <span><strong>@ViewBag.PostsCount</strong> bài viết</span>
+                <span><strong>@ViewBag.FollowersCount</strong> người theo dõi</span>
+                <span><strong>@ViewBag.FollowingCount</strong> đang theo dõi</span>
+            </div>
+        </div>
+
+        <!-- Nút hành động -->
+        <div class="profile-actions">
+            @if (ViewBag.IsFollowing)
+            {
+                <form asp-action="Unfollow" method="post" class="inline-form">
+                    <input type="hidden" name="doctorId" value="@Model.Id" />
+                    <button type="submit" class="btn btn-danger">Đang theo dõi</button>
+                </form>
+            }
+            else
+            {
+                <form asp-action="Follow" method="post" class="inline-form">
+                    <input type="hidden" name="doctorId" value="@Model.Id" />
+                    <button type="submit" class="btn btn-primary">Theo dõi</button>
+                </form>
+            }
+            <button class="btn btn-secondary" onclick="location.href='@Url.Action("Index", "Messages", new { receiverId = Model.Id })'">Nhắn tin</button>
+        </div>
+    </div>
+
+    <!-- Khu vực bài viết -->
+    <div class="profile-posts">
+        <div class="post-grid">
+            @foreach (var post in ViewBag.Posts)
+            {
+                <div class="post-item">
+                    <img src="@post.ImagePath" alt="Post" class="post-img">
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<!-- CSS -->
+<style>
+    .profile-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .profile-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    .profile-avatar {
+        flex: 1;
+        text-align: center;
+    }
+
+    .avatar-img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 1px solid #ddd;
+    }
+
+    .profile-info {
+        flex: 2;
+        text-align: center;
+    }
+
+    .profile-username {
+        font-size: 1.5em;
+        margin: 10px 0;
+    }
+
+    .profile-stats {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        font-size: 1em;
+        color: #555;
+    }
+
+    .profile-actions {
+        flex: 1;
+        text-align: center;
+    }
+
+    .btn {
+        margin: 5px;
+        padding: 8px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        color: white;
+        border: none;
+    }
+
+    .btn-danger {
+        background-color: #dc3545;
+        color: white;
+        border: none;
+    }
+
+    .btn-secondary {
+        background-color: #6c757d;
+        color: white;
+        border: none;
+    }
+
+    .profile-posts .post-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .post-item {
+        width: calc(33.333% - 10px);
+        text-align: center;
+    }
+
+    .post-img {
+        width: 100%;
+        border-radius: 5px;
+    }
+</style>

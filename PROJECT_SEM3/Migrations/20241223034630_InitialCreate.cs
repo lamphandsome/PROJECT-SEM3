@@ -82,7 +82,7 @@ namespace PROJECT_SEM3.Migrations
                     DateOfBirth = table.Column<DateTime>(type: "datetime2", nullable: false),
                     LocationId = table.Column<int>(type: "int", nullable: true),
                     YearsOfExperience = table.Column<int>(type: "int", nullable: false),
-                    Thumbnail = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Thumbnail = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false),
                     UpdatedAt = table.Column<DateTime>(type: "datetime2", nullable: false),
                     UserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),

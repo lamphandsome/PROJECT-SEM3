@@ -1,25 +1,6 @@
-.vs/
-PROJECT_SEM3/bin/
-PROJECT_SEM3/obj/
+.vs/ 
 
-# Thư mục build và output
-bin/
-obj/
-
-# Cấu hình IDE
-.vs/
-*.user
-
-# Tệp nhạy cảm hoặc cấu hình môi trường
+appsettings.json
 appsettings.Development.json
-
-# Thư mục tĩnh
-wwwroot/
-
-# Tệp tạm thời hoặc không cần thiết
-*.log
-*.bak
-
-# Tệp của hệ điều hành
-.DS_Store
-Thumbs.db
+PROJECT_SEM3/obj/*
+PROJECT_SEM3/bin/*

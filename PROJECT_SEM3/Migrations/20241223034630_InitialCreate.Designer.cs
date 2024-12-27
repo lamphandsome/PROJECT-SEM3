@@ -12,7 +12,7 @@ using PROJECT_SEM3.Data;
 namespace PROJECT_SEM3.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241221190302_InitialCreate")]
+    [Migration("20241223034630_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -400,7 +400,6 @@ namespace PROJECT_SEM3.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Thumbnail")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("TwoFactorEnabled")
