@@ -5,10 +5,6 @@
       "PackagePath": "staticwebassets\\PROJECT_SEM3.bundle.scp.css"
     },
     {
-      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\css\\Details.css",
-      "PackagePath": "staticwebassets\\css\\Details.css"
-    },
-    {
       "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\css\\account.css",
       "PackagePath": "staticwebassets\\css\\account.css"
     },
@@ -23,10 +19,6 @@
     {
       "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
-    },
-    {
-      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\css\\styles.css",
-      "PackagePath": "staticwebassets\\css\\styles.css"
     },
     {
       "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\css\\theme.css",
@@ -55,14 +47,6 @@
     {
       "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\img\\425727701_393795563231506_7539939603831731263_n.jpg",
       "PackagePath": "staticwebassets\\img\\425727701_393795563231506_7539939603831731263_n.jpg"
-    },
-    {
-      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\img\\445465038_2357956384398286_7901821066234689188_n.jpg",
-      "PackagePath": "staticwebassets\\img\\445465038_2357956384398286_7901821066234689188_n.jpg"
-    },
-    {
-      "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\img\\958620_202208262333400000001.jpg",
-      "PackagePath": "staticwebassets\\img\\958620_202208262333400000001.jpg"
     },
     {
       "Id": "C:\\1-Project3\\PROJECT_SEM3\\wwwroot\\img\\ajax-loader.gif",
