@@ -1,0 +1,124 @@
+﻿@model IEnumerable<PROJECT_SEM3.Models.Message>
+@{
+    ViewBag.Title = "Tin nhắn";
+    var receiverId = ViewBag.ReceiverId as string;
+}
+
+<div class="chat-container">
+    <div class="chat-header">
+        <h3 class="chat-title">Tin nhắn với @ViewBag.ReceiverName</h3>
+    </div>
+
+    <div class="chat-messages">
+        @foreach (var message in Model)
+        {
+            <div class="message @(message.SenderId == User.Identity.Name ? "sent" : "received")">
+                <p class="message-content">@message.Content</p>
+                <small class="message-time">@message.SentAt.ToString("dd/MM/yyyy HH:mm")</small>
+            </div>
+        }
+    </div>
+
+    <form asp-action="SendMessage" method="post" class="chat-input">
+        <input type="hidden" name="receiverId" value="@receiverId" />
+        <textarea name="content" placeholder="Nhập tin nhắn..." required></textarea>
+        <button type="submit" class="btn-send">Gửi</button>
+    </form>
+</div>
+
+<style>
+    .chat-container {
+        max-width: 700px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .chat-header {
+        padding: 15px;
+        background-color: #007bff;
+        color: white;
+        text-align: center;
+    }
+
+    .chat-title {
+        margin: 0;
+        font-size: 1.2rem;
+    }
+
+    .chat-messages {
+        flex: 1;
+        padding: 15px;
+        overflow-y: auto;
+        background-color: #f9f9f9;
+    }
+
+    .message {
+        margin-bottom: 15px;
+        max-width: 60%;
+    }
+
+        .message.sent {
+            align-self: flex-end;
+            background-color: #d1e7dd;
+            border-radius: 15px 15px 0 15px;
+            padding: 10px;
+            position: relative;
+        }
+
+        .message.received {
+            align-self: flex-start;
+            background-color: #f8d7da;
+            border-radius: 15px 15px 15px 0;
+            padding: 10px;
+            position: relative;
+        }
+
+    .message-content {
+        margin: 0;
+        font-size: 0.9rem;
+    }
+
+    .message-time {
+        font-size: 0.7rem;
+        color: #6c757d;
+        position: absolute;
+        bottom: -15px;
+        right: 10px;
+    }
+
+    .chat-input {
+        display: flex;
+        padding: 10px;
+        background-color: white;
+        border-top: 1px solid #ddd;
+    }
+
+        .chat-input textarea {
+            flex: 1;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            margin-right: 10px;
+            resize: none;
+            height: 50px;
+        }
+
+    .btn-send {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+
+        .btn-send:hover {
+            background-color: #0056b3;
+        }
+</style>
