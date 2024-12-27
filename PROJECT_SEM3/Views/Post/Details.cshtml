@@ -1,11 +1,27 @@
 ﻿@model PROJECT_SEM3.Models.Post
 
-<h2>@Model.Title</h2>
-<p>@Model.Content</p>
-@if (!string.IsNullOrEmpty(Model.ImagePath))
-{
-    <img src="@Model.ImagePath" alt="Post Image" style="max-width:100%;" />
-}
-<p>Created At: @Model.CreatedAt.ToString("g")</p>
+<div class="container-custom-details">
+    <article class="article shadow-sm rounded p-4 bg-white">
+        <header class="mb-4">
+            <h1 class="article-title text-primary">@Model.Title</h1>
+            <p class="article-meta text-muted">Published on @Model.CreatedAt.ToString("g")</p>
+        </header>
 
-<a asp-action="Index">Back to List</a>
+        <section class="article-content">
+            <p class="fs-5">@Model.Content</p>
+            @if (!string.IsNullOrEmpty(Model.ImagePath))
+            {
+                <figure class="mt-4 text-center">
+                    <div class="image-wrapper">
+                        <img src="@Model.ImagePath" alt="Post Image" class="img-fluid rounded shadow-sm" />
+                    </div>
+                    <figcaption class="mt-2 text-muted">Image Caption</figcaption>
+                </figure>
+            }
+        </section>
+
+        <footer class="mt-4">
+            <a asp-action="Index" class="btn btn-primary">Back to List</a>
+        </footer>
+    </article>
+</div>
