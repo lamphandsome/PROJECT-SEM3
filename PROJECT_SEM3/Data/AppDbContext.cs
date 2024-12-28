@@ -1,11 +1,16 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using PROJECT_SEM3.Models;
+using PROJECT_SEM3.ViewModels;
 
 namespace PROJECT_SEM3.Data
 {
     public class AppDbContext : IdentityDbContext<Users>
     {
+        public AppDbContext()
+        {
+        }
+
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
         }
@@ -80,5 +85,6 @@ namespace PROJECT_SEM3.Data
                 .HasForeignKey(m => m.ReceiverId)
                 .OnDelete(DeleteBehavior.Restrict);
         }
+        public DbSet<PROJECT_SEM3.ViewModels.DoctorViewModel> DoctorViewModel { get; set; } = default!;
     }
 }
