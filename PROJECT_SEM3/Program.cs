@@ -1,7 +1,9 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using PROJECT_SEM3.ChatHub;
 using PROJECT_SEM3.Data;
 using PROJECT_SEM3.Models;
+using PROJECT_SEM3.Services;
 
 internal class Program
 {
@@ -18,6 +20,8 @@ internal class Program
         builder.Logging.ClearProviders();
         builder.Logging.AddConsole();
 
+        builder.Services.AddSignalR();
+        builder.Services.AddScoped<IMessageService, MessageService>();
         builder.Services.AddIdentity<Users, IdentityRole>(options =>
         {
             options.Password.RequireNonAlphanumeric = false;
@@ -32,7 +36,8 @@ internal class Program
         )
             .AddEntityFrameworkStores<AppDbContext>()
             .AddDefaultTokenProviders();
-
+        builder.Services.AddRazorPages()
+.AddRazorRuntimeCompilation();
         var app = builder.Build();
 
         // Configure the HTTP request pipeline.
@@ -50,6 +55,8 @@ internal class Program
 
         app.UseAuthorization();
 
+
+        app.MapHub<ChatHub>("/chatHub");
         app.MapControllerRoute(
             name: "default",
             pattern: "{controller=Home}/{action=Index}/{id?}");

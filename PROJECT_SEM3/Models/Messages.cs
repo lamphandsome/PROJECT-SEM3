@@ -10,6 +10,8 @@
 
         public Users Sender { get; set; }
         public Users Receiver { get; set; }
+
+        public bool IsRead { get; set; } = false;
     }
     class Messages
     {
