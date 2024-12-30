@@ -18,17 +18,5 @@ namespace PROJECT_SEM3.Areas.Admin.Controllers
         {
             return View();
         }
-        [Route("ListDoctors")]
-        public IActionResult ListDoctors()
-        {
-            var doctors = db.Users.Select(u => new DoctorViewModel
-            {
-                FullName = u.FullName,
-                Thumbnail = u.Thumbnail,
-                Locations = u.Location.City ?? "N/A"
-            }).ToList();
-
-            return View(doctors);
-        }
     }
 }

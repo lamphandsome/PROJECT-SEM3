@@ -33,11 +33,9 @@ namespace PROJECT_SEM3.Controllers
         {
             if (string.IsNullOrWhiteSpace(query))
             {
-                // Nếu không có từ khóa, trả về danh sách trống
                 return View("SearchResults", new List<DoctorViewModel>());
             }
 
-            // Tìm kiếm theo tên hoặc địa chỉ
             var results = _context.Users
                 .Include(u => u.Location)
                 .Where(u => u.FullName.Contains(query) ||
