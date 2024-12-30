@@ -1,0 +1,362 @@
+﻿@using System.Security.Claims
+@model List<Users>
+@{
+    ViewData["Title"] = "Chat";
+}
+
+<div class="container-fluid">
+    <div class="row">
+
+        <div class="col-md-3 border-end vh-100 pt-3">
+            <div class="d-flex flex-column h-100">
+
+                <div class="p-2">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Tìm kiếm..." id="searchInput">
+                        <button class="btn btn-outline-secondary" type="button">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="flex-grow-1 overflow-auto">
+                    <partial name="_UserList" model="ViewBag.AllUsers" />
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-9  d-flex flex-column chat-container">
+
+            <div class="p-3 border-bottom d-none" id="chatHeader">
+                <div class="d-flex align-items-center">
+                    <div id="currentUserAvatar" class="me-2"></div>
+                    <div>
+                        <h5 class="mb-0" id="currentUserName"></h5>
+                        <small class="text-muted" id="onlineStatus"></small>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="flex-grow-1 overflow-auto p-3" id="messagesContainer">
+                <div class="text-center text-muted h-100 d-flex align-items-center justify-content-center" id="noChatSelected">
+                    <div>
+                        <i class="bi bi-chat-dots display-4"></i>
+                        <p class="mt-2">Chọn một người dùng để bắt đầu chat</p>
+                    </div>
+                </div>
+                <div id="messagesList" class="d-none">
+
+                </div>
+            </div>
+
+
+            <div class="p-3 border-top d-none" id="messageForm">
+                <form id="sendMessageForm" class="d-flex">
+                    <input type="text" class="form-control me-2" id="messageInput" placeholder="Nhập tin nhắn...">
+                    <button type="submit" class="btn btn-primary">
+                        <i class="bi bi-send"></i>
+                    </button>
+                </form>
+                <small class="text-muted d-none" id="typingIndicator"></small>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+   <style>
+        .chat-container {
+            height: calc(100vh - 150px);
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .chat-sidebar {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .chat-list {
+            flex: 1;
+            overflow-y: auto;
+        }
+
+        .chat-user {
+            padding: 10px 15px;
+            border-bottom: 1px solid #eee;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .chat-user:hover {
+            background-color: #f8f9fa;
+        }
+
+        .chat-user.active {
+            background-color: #e9ecef;
+        }
+
+        .chat-main {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .chat-messages {
+            flex: 1;
+            overflow-y: auto;
+            padding: 15px;
+        }
+
+        .message {
+            max-width: 70%;
+            margin-bottom: 15px;
+            clear: both;
+        }
+
+        .message-sent {
+            float: right;
+            background: #007bff;
+            color: white;
+            border-radius: 15px 15px 0 15px;
+            padding: 8px 15px;
+        }
+
+        .message-received {
+            float: left;
+            background: #f1f1f1;
+            border-radius: 15px 15px 15px 0;
+            padding: 8px 15px;
+        }
+
+        .typing-indicator {
+            padding: 5px 10px;
+            background: #eee;
+            border-radius: 15px;
+            margin-bottom: 10px;
+            display: none;
+        }
+
+        .user-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: #e9ecef;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: #6c757d;
+        }
+
+        .online-indicator {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: #28a745 !important;
+            display: inline-block;
+            margin-right: 5px;
+        }
+
+        .offline-indicator {
+            background: #dc3545 !important;
+        }
+
+        .unread-badge {
+            background: #007bff;
+            color: white;
+            border-radius: 50%;
+            padding: 2px 6px;
+            font-size: 12px;
+        }
+    </style>
+}
+
+            
+@section Scripts {
+    <script src="~/vendor/microsoft-signalr/signalr.js"></script>
+
+    <script>
+        let connection;
+        let currentChatUserId ;
+        let typingTimer;
+
+        async function initializeSignalR() {
+            connection = new signalR.HubConnectionBuilder()
+                .withUrl("/chatHub")
+                .withAutomaticReconnect()
+                .build();
+
+            setupSignalRHandlers();
+
+            try {
+                await connection.start();
+                console.log("SignalR Connected");
+            } catch (err) {
+                console.error(err);
+                setTimeout(initializeSignalR, 5000);
+            }
+        }
+
+        function setupSignalRHandlers() {
+            connection.on("ReceiveMessage", function (message) {
+                if (message.senderId === currentChatUserId) {
+                    addMessageToChat(message, false);
+                    markMessageAsRead(message.id);
+                } else {
+                    updateLastMessage(message.senderId, message.content);
+                }
+            });
+
+            connection.on("MessageSent", function (message) {
+                addMessageToChat(message, true);
+            });
+
+            connection.on("UserOnline", function (userId) {
+                setUserOnlineStatus(userId, true);
+            });
+
+            connection.on("UserOffline", function (userId) {
+                setUserOnlineStatus(userId, false);
+            });
+
+            connection.on("UserTyping", function (userId) {
+                if (userId === currentChatUserId) {
+                    showTypingIndicator();
+                }
+            });
+
+            connection.on("UserStoppedTyping", function (userId) {
+                if (userId === currentChatUserId) {
+                    hideTypingIndicator();
+                }
+            });
+        }
+
+        function loadChat(userId) {
+    
+            currentChatUserId = userId;
+            const userName = $(`.chat-user[data-user-id="${userId}"]`).data('user-name');
+
+            // Update UI
+            $('.chat-user').removeClass('active');
+            $(`.chat-user[data-user-id="${userId}"]`).addClass('active');
+
+            $('#currentUserName').text(userName);
+            $('#chatHeader, #messagesList, #messageForm').removeClass('d-none');
+            $('#noChatSelected').addClass('d-none');
+            $('#messagesList').empty();
+
+
+            loadChatHistory(userId);
+        }
+        async function loadChatHistory(userId) {
+            if (!userId) {
+                console.error('UserId is required');
+                return;
+            }
+
+            try {
+
+                const response = await fetch(`/Chat/LoadMessages?userId=${encodeURIComponent(userId)}`);
+                if (!response.ok) throw new Error('Failed to fetch chat history');
+                const messages = await response.json();
+                $('#messagesList').empty();
+                messages.forEach((message) => {
+                    const isSent = message.senderId === connection.connectionId;
+                    addMessageToChat(message, isSent);
+                });
+                scrollToBottom();
+            } catch (error) {
+                console.error('Error loading chat history:', error);
+            }
+        }
+
+        function addMessageToChat(message, isSent) {
+            const messageClass = isSent ? 'message-sent' : 'message-received';
+            const messageElement = `
+                <div class="message ${messageClass}">
+                    <div>${message.content}</div>
+                    <small class="text-muted">${new Date(message.sentAt).toLocaleTimeString()}</small>
+                </div>
+            `;
+            $('#messagesList').append(messageElement);
+            scrollToBottom();
+        }
+
+
+        function scrollToBottom() {
+            const container = $('#messagesContainer');
+            container.scrollTop(container.prop('scrollHeight'));
+        }
+
+
+        $('#sendMessageForm').on('submit', async function (e) {
+            e.preventDefault();
+
+            const messageInput = $('#messageInput');
+            const content = messageInput.val().trim();
+            if (!content) return;
+
+            try {
+                await connection.invoke('SendMessage', currentChatUserId, content);
+                messageInput.val('');
+            } catch (error) {
+                console.error('Error sending message:', error);
+            }
+        });
+
+  
+        $('#messageInput').on('input', function () {
+            clearTimeout(typingTimer);
+
+            connection.invoke('TypingStarted', currentChatUserId).catch((err) => console.error(err));
+
+            typingTimer = setTimeout(() => {
+                connection.invoke('TypingStopped', currentChatUserId).catch((err) => console.error(err));
+            }, 1000);
+        });
+
+
+        function updateLastMessage(userId, messageContent) {
+            $(`.last-message[data-user-id="${userId}"]`).text(messageContent);
+        }
+
+
+        function setUserOnlineStatus(userId, isOnline) {
+            const indicator = $(`.offline-indicator[data-user-id="${userId}"]`);
+            if (isOnline) {
+                indicator.removeClass('offline-indicator').addClass('online-indicator');
+            } else {
+                indicator.removeClass('online-indicator ').addClass('offline-indicator');
+            }
+        }
+
+
+        function showTypingIndicator() {
+            $('#typingIndicator').removeClass('d-none').text('Typing...');
+        }
+
+        function hideTypingIndicator() {
+            $('#typingIndicator').addClass('d-none').text('');
+        }
+
+
+        $(document).ready(async function () {
+            await initializeSignalR();
+
+            $('.chat-user').on('click', function () {
+                const userId = $(this).data('user-id');
+         
+                loadChat(userId);
+            });
+        });
+
+    </script>
+}
