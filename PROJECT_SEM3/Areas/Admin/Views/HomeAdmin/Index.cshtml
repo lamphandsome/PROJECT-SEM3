@@ -1,8 +1,63 @@
-﻿
-@{
+﻿@{
     ViewData["Title"] = "Index";
     Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
 }
 
-<h1>Index</h1>
+<h1 class="text-center mt-4">Doctor Management</h1>
 
+<div class="container mt-4">
+    <!-- Add New Doctor Button -->
+    <div class="text-end mb-3">
+        <a href="/admin/homeadmin/create" class="btn btn-primary">
+            <i class="bi bi-plus-circle"></i> Add New Doctor
+        </a>
+    </div>
+
+    <table class="table table-bordered table-hover table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>#</th>
+                <th>Full Name</th>
+                <th>Thumbnail</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Count > 0)
+            {
+                int index = 1;
+                foreach (var doctor in Model)
+                {
+                    <tr>
+                        <td>@index</td>
+                        <td>@doctor.FullName</td>
+                        <td>
+                            <img src="@doctor.Thumbnail" alt="Thumbnail" class="img-thumbnail" width="100" height="100" />
+                        </td>
+                        <td>
+                            <div class="d-flex">
+                                <!-- Edit Button -->
+                                <a href="/admin/homeadmin/edit/@doctor.Id" class="btn btn-warning btn-sm me-2">
+                                    <i class="bi bi-pencil-square"></i> Edit
+                                </a>
+                                <!-- Delete Button -->
+                                <form method="post" action="/admin/homeadmin/delete/@doctor.Id" onsubmit="return confirm('Are you sure you want to delete this doctor?');">
+                                    <button type="submit" class="btn btn-danger btn-sm">
+                                        <i class="bi bi-trash"></i> Delete
+                                    </button>
+                                </form>
+                            </div>
+                        </td>
+                    </tr>
+                    index++;
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="4" class="text-center">No data available.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

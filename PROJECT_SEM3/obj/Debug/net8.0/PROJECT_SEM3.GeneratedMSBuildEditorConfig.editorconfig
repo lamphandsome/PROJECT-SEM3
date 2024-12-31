@@ -26,6 +26,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\nguye\OneDrive\문서\GitHub\PROJECT-SEM3\PROJECT_SEM3
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/nguye/OneDrive/문서/GitHub/PROJECT-SEM3/PROJECT_SEM3/Areas/Admin/Views/HomeAdmin/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nguye/OneDrive/문서/GitHub/PROJECT-SEM3/PROJECT_SEM3/Areas/Admin/Views/HomeAdmin/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/nguye/OneDrive/문서/GitHub/PROJECT-SEM3/PROJECT_SEM3/Areas/Admin/Views/HomeAdmin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

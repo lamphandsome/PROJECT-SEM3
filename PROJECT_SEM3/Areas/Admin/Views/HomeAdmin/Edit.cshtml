@@ -1,0 +1,41 @@
+﻿@using PROJECT_SEM3.Models
+@{
+    var locationsJson = TempData["Locations"] as string;
+    var locations = Newtonsoft.Json.JsonConvert.DeserializeObject<List<PROJECT_SEM3.Models.Location>>(locationsJson);
+}
+
+@{
+    ViewData["Title"] = "Edit Doctor";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>Edit Doctor</h1>
+
+<form method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="FullName">Full Name</label>
+        <input type="text" class="form-control" id="FullName" name="FullName" value="@Model.FullName" required />
+    </div>
+
+    <div class="form-group mt-3">
+        <label for="Thumbnail">Thumbnail</label>
+        <input type="file" class="form-control" id="Thumbnail" name="Thumbnail" />
+        <img src="@Url.Content($"~{Model.Thumbnail}")" alt="Thumbnail" class="mt-2" style="max-width: 100px;" />
+    </div>
+
+    <div class="form-group mt-3">
+        <label for="Locations">Location</label>
+        <select class="form-control" id="Locations" name="LocationId" required>
+            <option value="">Select Location</option>
+            @foreach (var location in locations)  // Sử dụng dữ liệu lấy từ TempData
+            {
+                <option value="@location.Id" @(location.Id == Model.LocationId ? "selected" : "")>
+                    @location.Country, @location.City
+                </option>
+            }
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-success mt-3">Save</button>
+    <a href="@Url.Action("Index", "HomeAdmin")" class="btn btn-secondary mt-3 ms-2">Back</a>
+</form>
