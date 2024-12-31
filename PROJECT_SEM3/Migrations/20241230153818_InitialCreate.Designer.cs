@@ -12,7 +12,7 @@ using PROJECT_SEM3.Data;
 namespace PROJECT_SEM3.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241223034630_InitialCreate")]
+    [Migration("20241230153818_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -246,6 +246,9 @@ namespace PROJECT_SEM3.Migrations
                     b.Property<string>("Content")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsRead")
+                        .HasColumnType("bit");
 
                     b.Property<string>("ReceiverId")
                         .IsRequired()

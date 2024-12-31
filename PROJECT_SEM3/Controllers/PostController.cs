@@ -17,22 +17,92 @@ namespace PROJECT_SEM3.Controllers
             _env = env;
         }
 
-        // GET: Posts
+        // PostController.cs - Thêm logic để chỉ hiển thị bài viết từ những người user đang theo dõi
         public IActionResult Index()
         {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier); // ID user hiện tại
+            if (userId == null)
+            {
+                return RedirectToAction("Login", "Account"); // Chuyển hướng nếu chưa đăng nhập
+            }
+
+            // Lấy danh sách ID người mà user đang follow
+            var followingIds = _context.Follows
+                .Where(f => f.FollowerId == userId)
+                .Select(f => f.FollowingId)
+                .ToList();
+
+            // Lấy bài viết của những người đang follow
             var posts = _context.Posts
+                .Where(p => followingIds.Contains(p.UserId))
                 .Select(post => new PostViewModel
                 {
                     Id = post.Id,
-                    FullName = post.User.FullName,  // Giả sử bạn có trường FullName trong User
+                    FullName = post.User.FullName,
                     Thumbnail = post.ImagePath,
-                    CreatedAt = post.CreatedAt
+                    Title = post.Title,
+                    CreatedAt = post.CreatedAt,
+                    Content = post.Content
                 })
                 .ToList();
 
             return View(posts);
         }
 
+        // PostController.cs - Thêm action để hiển thị chi tiết bài viết cùng phần bình luận
+        public IActionResult Details(int id)
+        {
+            var post = _context.Posts
+                .Where(p => p.Id == id)
+                .Select(p => new PostDetailViewModel
+                {
+                    Id = p.Id,
+                    Title = p.Title,
+                    Content = p.Content,
+                    ImagePath = p.ImagePath,
+                    CreatedAt = p.CreatedAt,
+                    AuthorName = p.User.FullName,
+                    Comments = p.Comments.Select(c => new CommentViewModel
+                    {
+                        Content = c.Content,
+                        UserName = c.User.FullName,
+                        CreatedAt = c.CreatedAt
+                    }).ToList()
+                })
+                .FirstOrDefault();
+
+            if (post == null)
+            {
+                return NotFound();
+            }
+
+            return View(post);
+        }
+
+        // PostController.cs - Thêm action để xử lý việc thêm bình luận
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult AddComment(int postId, string content)
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (userId == null)
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
+            var comment = new Comment
+            {
+                Content = content,
+                CreatedAt = DateTime.Now,
+                PostId = postId,
+                UserId = userId
+            };
+
+            _context.Comments.Add(comment);
+            _context.SaveChanges();
+
+            return RedirectToAction("Details", new { id = postId });
+        }
 
         // GET: Posts/Create
         public IActionResult Create()
@@ -99,19 +169,6 @@ namespace PROJECT_SEM3.Controllers
                     Console.WriteLine($"Lỗi: {ex.Message}");
                     ModelState.AddModelError("", "Đã xảy ra lỗi khi lưu bài viết.");
                 }
-            }
-            return View(post);
-        }
-
-
-
-        // GET: Posts/Details/5
-        public IActionResult Details(int id)
-        {
-            var post = _context.Posts.FirstOrDefault(p => p.Id == id);
-            if (post == null)
-            {
-                return NotFound();
             }
             return View(post);
         }

@@ -6,5 +6,7 @@
         public string FullName { get; set; }
         public string Thumbnail { get; set; }
         public DateTime CreatedAt { get; set; }
+        public string Content { get; internal set; }
+        public string Title { get; set; }
     }
 }

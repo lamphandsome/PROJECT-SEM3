@@ -1,27 +1,36 @@
-﻿@model PROJECT_SEM3.Models.Post
+﻿@model PROJECT_SEM3.ViewModels.PostDetailViewModel
 
-<div class="container-custom-details">
-    <article class="article shadow-sm rounded p-4 bg-white">
-        <header class="mb-4">
-            <h1 class="article-title text-primary">@Model.Title</h1>
-            <p class="article-meta text-muted">Published on @Model.CreatedAt.ToString("g")</p>
-        </header>
+<div class="container-post-detail">
+    <div class="article">
+        <h1 class="article-title">@Model.Title</h1>
+        <p class="article-meta">By @Model.AuthorName on @Model.CreatedAt.ToString("g")</p>
+        @if (!string.IsNullOrEmpty(Model.ImagePath))
+        {
+            <div class="image-container">
+                <img src="@Model.ImagePath" class="article-image img-fluid" alt="Article Image">
+            </div>
+        }
+        <div class="article-content">
+            <p>@Model.Content</p>
+        </div>
+    </div>
 
-        <section class="article-content">
-            <p class="fs-5">@Model.Content</p>
-            @if (!string.IsNullOrEmpty(Model.ImagePath))
-            {
-                <figure class="mt-4 text-center">
-                    <div class="image-wrapper">
-                        <img src="@Model.ImagePath" alt="Post Image" class="img-fluid rounded shadow-sm" />
-                    </div>
-                    <figcaption class="mt-2 text-muted">Image Caption</figcaption>
-                </figure>
-            }
-        </section>
+    <div class="comments mt-5">
+        <h4>Comments</h4>
+        @foreach (var comment in Model.Comments)
+        {
+            <div class="comment mb-3">
+                <strong>@comment.UserName</strong> (@comment.CreatedAt.ToString("g"))
+                <p>@comment.Content</p>
+            </div>
+        }
 
-        <footer class="mt-4">
-            <a asp-action="Index" class="btn btn-primary">Back to List</a>
-        </footer>
-    </article>
+        <form asp-action="AddComment" method="post">
+            <input type="hidden" name="postId" value="@Model.Id" />
+            <div class="form-group">
+                <textarea name="content" class="form-control" placeholder="Add a comment..." rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary mt-2">Submit</button>
+        </form>
+    </div>
 </div>
