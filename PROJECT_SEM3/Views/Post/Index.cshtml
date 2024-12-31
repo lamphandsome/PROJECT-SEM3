@@ -1,28 +1,21 @@
 ﻿@model IEnumerable<PROJECT_SEM3.ViewModels.PostViewModel>
 
-<div class="container-custom">
-    <h2 class="text-primary mb-4">All Posts</h2>
-    <table class="table table-hover table-bordered">
-        <thead class="table-dark">
-            <tr>
-                <th>Title</th>
-                <th>Created At</th>
-                <th>Actions</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var post in Model)
-            {
-                <tr>
-                    <td><a asp-action="Details" asp-route-id="@post.Id" class="text-decoration-none text-primary">@post.FullName</a></td>
-                    <td>@post.CreatedAt.ToString("g")</td>
-                    <td>
-                        <a asp-action="Details" asp-route-id="@post.Id" class="btn btn-info btn-sm">View</a>
-                    </td>
-                </tr>
-            }
-        </tbody>
-    </table>
-
-    <a asp-action="Create" class="btn btn-primary">Create New Post</a>
+<div class="container-post-index">
+    <h2 class="text-primary mb-4">News Feed</h2>
+    <div class="row">
+        @foreach (var post in Model)
+        {
+            <div class="col-md-4 mb-4 d-flex">
+                <div class="card h-100 w-100">
+                    <img src="@post.Thumbnail" class="card-img-top" alt="Post Image" loading="lazy">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">@post.FullName</h5>
+                        <p class="card-text">@post.Title</p> <!-- Tiêu đề bài viết -->
+                        <p class="card-text text-muted">@post.CreatedAt.ToString("g")</p>
+                        <a asp-action="Details" asp-route-id="@post.Id" class="btn btn-primary mt-auto">Read More</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
 </div>

@@ -1,0 +1,43 @@
+﻿.container-post-index {
+    max-width: 1200px; /* Tăng kích thước để phù hợp với Bootstrap grid */
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+.card-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1.25rem; /* Điều chỉnh kích thước font nếu cần */
+}
+
+/* Đảm bảo tất cả ảnh trong card có cùng kích thước */
+.card-img-top {
+    height: 200px; /* Điều chỉnh theo nhu cầu */
+    object-fit: cover;
+}
+
+/* Đảm bảo card chiếm toàn bộ chiều cao của cột */
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* Đảm bảo phần thân card (`card-body`) chiếm không gian còn lại */
+.card-body {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Nút "Read More" luôn nằm dưới cùng */
+.btn-primary {
+    margin-top: auto;
+}
+
+/* Tùy chỉnh container để phù hợp hơn với lưới Bootstrap */
+.container-post-index {
+    padding: 20px 0; /* Thêm khoảng cách trên dưới */
+}
